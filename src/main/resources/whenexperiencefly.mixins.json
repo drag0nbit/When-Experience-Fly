@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.corruptedbyte.whenexperiencefly.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExperienceOrbMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

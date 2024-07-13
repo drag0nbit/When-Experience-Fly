@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "whenexperiencefly",
+  "version": "${version}",
+  "name": "When Experience Fly",
+  "description": "Basically makes dropped experience have no gravity.  ",
+  "authors": [
+    "DragonTheByte"
+  ],
+  "contact": {
+    "repo": "https://github.com/drag0nbit/When-Experience-Fly"
+  },
+  "license": "MIT",
+  "icon": "assets/whenexperiencefly/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.corruptedbyte.whenexperiencefly.client.WhenExperienceFlyClient"
+    ],
+    "main": [
+      "com.corruptedbyte.whenexperiencefly.WhenExperienceFly"
+    ]
+  },
+  "mixins": [
+    "whenexperiencefly.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
